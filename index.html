@@ -14,8 +14,8 @@
   <audio id="soundDice" src="audio/dados.mp3"></audio>
   <audio id="rellenarPucherin" src="audio/rellenarPucherin.mp3"></audio>
   <audio id="cambioJugador" src="audio/cambioJugador.mp3"></audio>
-  <div id="elegirNumeroJugadores">
-    <div id="intro">    
+  <div id="elegirNumeroJugadores" class="col-xs-1">
+    <div id="intro" class="col-xs-1">    
     </div>
     <select name="numeroJugadores" id="numeroJugadores">
       <option value="1">1</option>
@@ -26,7 +26,7 @@
     </select>
     <button id="jugar">Empezar!</button>
   </div>
-  <div id="divDados1">
+  <div id="divDados1" class="col-xs-1"> <!-- Un div para los dados -->
     <img id="dado1" src="img/dado1.png" alt="">
     <img id="dado2" src="img/dado2.png" alt="">
     <img id="dado3" src="img/dado3.png" alt="">
@@ -34,7 +34,7 @@
     <img id="dado5" src="img/dado5.png" alt="">
     <img id="dado6" src="img/dado6.png" alt="">
   </div>
-  <div id="divDados2">
+  <div id="divDados2" class="col-xs-1"> <!-- Un segundo div para los dados -->
     <img id="dadin1" src="img/dado1.png" alt="">
     <img id="dadin2" src="img/dado2.png" alt="">
     <img id="dadin3" src="img/dado3.png" alt="">
@@ -42,12 +42,12 @@
     <img id="dadin5" src="img/dado5.png" alt="">
     <img id="dadin6" src="img/dado6.png" alt="">
   </div>
-  <div class="container">
-    <div id="tablero" class="box">
+  <div class="container" class="col-xs-1">
+    <div id="tablero" class="box col-xs-1">
     </div>
   </div>
-  <div class="fixed-bottom row justify-content-end">
-    <button  class="align-self-end col-2 col-sm-1 m-3 img-thumbnail img-fluid" id="botonAudio" alt="Icono Sol para cambio a modo claro" ></button>
+  <div class="fixed-bottom row justify-content-end col-xs-1">
+    <button class="align-self-end col-2 col-sm-1 m-3 img-thumbnail img-fluid" id="botonAudio" alt="Icono Sol para cambio a modo claro" ></button>
   </div>
   <script src="js/objetos.js"></script>
   <script src="js/pucherin.js"></script>
